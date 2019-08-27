@@ -8,7 +8,7 @@ public class TestAdditionTest extends TestCase {
     }
   
     public void testAddingTwoNegativeIntegers() throws Exception {
-        int expected = -11;
+        int expected = -13;
         int actual = new TestAddition().add(-4, -7);
         assertEquals(expected, actual);
     }
